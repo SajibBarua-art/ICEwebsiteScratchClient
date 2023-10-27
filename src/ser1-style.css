@@ -1,0 +1,33 @@
+.routine-header{
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.routine-header-tr{
+    font-weight: 700;
+    text-align: center;
+}
+.routine-table{
+    margin: 20px auto;
+    padding: 20px;
+}
+.routine-table tr td{
+    padding: 10px;
+    border: 1px solid black;
+    
+    font-size: 15px;
+}
+
+.vertical{
+    writing-mode: vertical-rl;
+    text-orientation:sideways-right;
+    text-align: center;
+    margin: auto;
+    font-size: 30px !important;
+    font-weight: 700;
+    padding: 0;
+
+}

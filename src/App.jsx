@@ -1,5 +1,9 @@
 import { useState, useEffect } from 'react'
 import UpdateTeacherCourses from './UpdateTeacherCourses.jsx'
+import CourseDetailsForm from './courseDetailsForm.jsx';
+import RoutineTable from './routineTable.jsx';
+import StudentLogin from './studenLogin.jsx';
+
 function App() {
     const [formData, setFormData] = useState({
         firstName: "",
@@ -71,6 +75,9 @@ function App() {
             </div>
 
             <UpdateTeacherCourses/>
+            <CourseDetailsForm/>
+            <RoutineTable/>
+            <StudentLogin/>
         </>
     );
 }
