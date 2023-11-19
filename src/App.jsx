@@ -1,8 +1,10 @@
 import { useState, useEffect } from 'react'
-import UpdateTeacherCourses from './UpdateTeacherCourses.jsx'
-import CourseDetailsForm from './courseDetailsForm.jsx';
-import RoutineTable from './routineTable.jsx';
-import StudentLogin from './studenLogin.jsx';
+// import UpdateTeacherCourses from './UpdateTeacherCourses.jsx'
+// import CourseDetailsForm from './courseDetailsForm.jsx';
+// import RoutineTable from './routineTable.jsx';
+// import StudentLogin from './studenLogin.jsx';
+// import SingleRoutine from './singleRoutine.jsx';
+import ExamCommittee from './examCommittee.jsx';
 
 function App() {
     const [formData, setFormData] = useState({
@@ -74,10 +76,12 @@ function App() {
                 <h1>Response from server: {response.length}</h1>
             </div>
 
-            <UpdateTeacherCourses/>
+            {/* <UpdateTeacherCourses/>
             <CourseDetailsForm/>
             <RoutineTable/>
             <StudentLogin/>
+            <SingleRoutine/> */}
+            <ExamCommittee/>
         </>
     );
 }

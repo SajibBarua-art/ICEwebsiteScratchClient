@@ -23,7 +23,7 @@ function StudentForm() {
     e.preventDefault();
 
     try {
-      const response = await fetch("http://localhost:5000/students", {
+      const response = await fetch("https://ice-ps2h27s05-sajib-baruas-projects.vercel.app/students", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

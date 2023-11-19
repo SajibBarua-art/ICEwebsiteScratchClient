@@ -17,7 +17,7 @@
 .routine-table tr td{
     padding: 10px;
     border: 1px solid black;
-    
+    text-align: center;
     font-size: 15px;
 }
 
@@ -30,4 +30,19 @@
     font-weight: 700;
     padding: 0;
 
+}
+table{
+    caption-side: top;
+}
+caption {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #f2f2f2;
+}
+.cell-size-of-exam-committee{
+    width: 150px;
+}
+.cell-size-of-exam-committee-name{
+    width: 250px;
 }
