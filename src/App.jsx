@@ -6,6 +6,7 @@ import StudentLogin from './studenLogin.jsx';
 import SingleRoutine from './singleRoutine.jsx';
 import ExamCommittee from './examCommittee.jsx';
 import UpdateAdminForm from './UpdateAdminForm.jsx';
+import CourseDistribution from './CourseDistribution.jsx';
 
 function App() {
     const [formData, setFormData] = useState({
@@ -58,7 +59,7 @@ function App() {
     }, []);
     return (
         <>
-            <h1>This is React WebApp </h1>
+            {/* <h1>This is React WebApp </h1>
             <form action="">
                 <input type="text" placeholder="first name"
                 value={formData.firstName} onChange={(e) => setFormData({ ...formData, firstName: e.target.value})} />
@@ -75,7 +76,7 @@ function App() {
 
             <div>
                 <h1>Response from server: {response.length}</h1>
-            </div>
+            </div> */}
 
             {/* <UpdateTeacherCourses/>
             <CourseDetailsForm/>
@@ -83,7 +84,8 @@ function App() {
             <StudentLogin/>
             <SingleRoutine/>
             <ExamCommittee/> */}
-            <UpdateAdminForm/>
+            {/* <UpdateAdminForm/> */}
+            <CourseDistribution />
         </>
     );
 }
