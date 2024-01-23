@@ -163,3 +163,19 @@ function CourseDistribution() {
 }
 
 export default CourseDistribution;
+
+// General structure example
+// CourseDistribution = {
+//     examYear: "2023", 
+//     semester: "2",
+//     courseDetails: [
+//         {
+//             courseCode: "2201",
+//             teacherCode: ["ASL", "ARK"]
+//         },
+//         {
+//             courseCode: "2203",
+//             teacherCode: ["ARK, "SA"]
+//         }
+//     ]
+// }
